@@ -1,15 +1,16 @@
 @import "app/styles/global-variables";
 
+// /* You can add global styles to this file, and also import other style files */
+// body {
+//     background: radial-gradient(circle at top left, #7c7881, #f0f0f1);
+//     color: #c3b3d8;
+//     margin: 0;
+//     padding: 0;
+//     height: 100%;
+//   }
 
-/* You can add global styles to this file, and also import other style files */
-body {
-    background: radial-gradient(circle at top left, #7c7881, #f0f0f1);
-    color: #c3b3d8;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-  }
+html, body { height: 100% !important }
 
-  h1 {
-    font-family: $main-font;
-  }
+h1 {
+  font-family: $main-font;
+}
