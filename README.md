@@ -1,5 +1,8 @@
 # MusicalStandoffWeb
 
+This is a web application using Wordle as an inspiration
+
+## Angular Version
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.2.
 
 ## Development server
