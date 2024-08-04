@@ -1,0 +1,21 @@
+@import "../../app/styles/global-variables";
+
+
+.desktop-navigation {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $off-white;
+}
+
+.site-logo {
+    max-width: 200px;
+    max-height: 200px;
+    
+}
+
+.circle-container {
+    border-radius: 50%;
+}
+
