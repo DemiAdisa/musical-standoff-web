@@ -16,7 +16,7 @@ $main-font: "Poppins", sans-serif;
 }
 
 .rounded-corners {
-    border-radius: 5px;
+  border-radius: 5px;
 }
 
 @keyframes rotateAnimation {
@@ -26,4 +26,9 @@ $main-font: "Poppins", sans-serif;
   to {
     transform: rotate(360deg);
   }
+}
+
+.max-1800 {
+  margin: 0 auto;
+  max-width: 1800px;
 }
