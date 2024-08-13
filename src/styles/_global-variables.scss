@@ -1,3 +1,8 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+
 // Color Scheme
 $off-white: #ededed;
 $gray: #aba8ae;
@@ -33,4 +38,35 @@ $main-font: "Poppins", sans-serif;
 .max-1800 {
   margin: 0 auto;
   max-width: 1800px;
+}
+
+
+.full-container {
+  background-color: $off-white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%;
+
+  padding: 20px;
+}
+
+.game-section {
+  padding: 20px;
+  width: 100%;
+
+  height: 50vh;
+
+  // @include media-breakpoint-down (md) {
+  //   height: 45vh;
+
+  // }
+  
+}
+
+.title-text {
+  text-transform: capitalize;
+}
+
+.scrollable {
+  overflow: auto;
 }
